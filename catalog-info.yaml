@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: postgres
+  description: The place to be, for great artists
+  labels:
+  annotations:
+  tags:
+    - java
+  links:
+spec:
+  type: website
+  lifecycle: production
+  owner: artist-relations-team
+  system: public-websites
